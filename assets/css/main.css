@@ -2874,15 +2874,20 @@ input, select, textarea {
 	}
 
 		.statistics li {
-			-moz-flex: 1;
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
+			display: grid;
 			padding: 1.5em;
-			color: #ffffff;
+			color: #000000;
 			text-align: center;
 		}
-
+		.svg{
+			display: grid;
+			border: 0;
+			padding: 0;
+			margin: auto;
+			justify-content: center;
+			height: 50px;
+			width: 50px ;
+		}
 			.statistics li.style1 {
 				background-color: #efa8b0;
 			}
