@@ -2854,14 +2854,20 @@ input, select, textarea {
 		}
 
 /* Statistics */
+.title{
+	font-size: 45px;
 
+}
+.sub{
+	font-size: xx-large;
+}
 	.statistics {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 1em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
