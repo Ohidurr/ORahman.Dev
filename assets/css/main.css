@@ -2256,6 +2256,29 @@ input, select, textarea {
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
+			
+		}
+
+		.projectImgs{
+			border: solid 1px;
+			display: inline-block;
+			border-radius: 5%;
+			padding: 0.65em;
+			margin: 0 0 2em 0;
+			height: 300px;
+			width: 300px;
+		}
+		
+		.projectImgs:before{
+			display: inline-block;
+			font-size: 6.25rem;
+			width: 2.25em;
+			height: 2.25em;
+			line-height: 2.2em;
+			border-radius: 100%;
+		
+			border: solid 1px;
+			text-align: center;
 		}
 
 			.icon.major:before {
@@ -2265,6 +2288,7 @@ input, select, textarea {
 				height: 2.25em;
 				line-height: 2.2em;
 				border-radius: 100%;
+			
 				border: solid 1px;
 				text-align: center;
 			}
@@ -2273,6 +2297,7 @@ input, select, textarea {
 			display: inline-block;
 			border: solid 1px;
 			border-radius: 100%;
+			
 		}
 
 			.icon.alt:before {
@@ -2907,7 +2932,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #ae9cc8;
 			}
 
 			.statistics li.style4 {
