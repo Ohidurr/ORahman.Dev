@@ -3729,6 +3729,28 @@ input, select, textarea {
 						}
 
 		}
+		/*pdf*/
+		/* iframe{
+				height: 1200px;
+				width: 100%;
+				
+		}
+		@media screen and (max-width: 1280px) {
+
+			iframe {
+				width: 100%;
+				height: 800px;
+			}
+
+		} */
+		/* @media screen and (max-width: 450px) {
+
+			iframe {
+				width: 500px;
+				height: 800px;
+			}
+
+		} */
 
 /* Footer */
 
@@ -3758,7 +3780,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 667px) {
 
 			#footer {
 				padding: 4em 4em 2em 4em ;
